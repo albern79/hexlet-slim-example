@@ -1,0 +1,22 @@
+{
+    "name": "my/slim",
+    "description": "slim test",
+    "autoload": {
+        "psr-4": {
+            "My\\Slim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Albern79",
+            "email": "albern79@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/http": "^1.3",
+        "slim/php-view": "^3.2",
+        "php-di/php-di": "^7.0"
+    }
+}
